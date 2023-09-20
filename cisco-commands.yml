@@ -1,4 +1,5 @@
 - name: Run multiple commands and evaluate the output
+  hosts: all
   cisco.ios.ios_command:
     commands:
       - show version
