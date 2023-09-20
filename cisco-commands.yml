@@ -1,3 +1,4 @@
+---
 - name: Run multiple commands and evaluate the output
   cisco.ios.ios_command:
     commands:
